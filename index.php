@@ -13,21 +13,21 @@
 </head>
 <body>
 
-<div class="container text-center">
-  <h1 class="color-aqua">FORM POST</h1>
+    <div class="container text-center">
+    <h1 class="color-aqua">FORM POST</h1>
 
-  <form action="landing.php" method="POST">
+    <form action="landing.php" method="POST">
 
-    <label for="text"> Inserisci del testo: </label>
-    <input class="mb-3" id="text" type="text" placeholder="text" name="text"> <br>
+        <label for="text"> Inserisci del testo: </label>
+        <input class="mb-3" id="text" type="text" placeholder="text" name="text"> <br>
 
-    <label for="censored">Parola da censurare: </label>
-    <input class="mb-3" id="censored" type="text" placeholder="to censore" name="censored"> <br>
+        <label for="censored">Parola da censurare: </label>
+        <input class="mb-3" id="censored" type="text" placeholder="to censore" name="censored"> <br>
 
-    <button class="rounded py-2 px-3" type="submit"> censura </button>
+        <button class="rounded py-2 px-3" type="submit"> censura </button>
 
-  </form>
-</div>
+    </form>
+    </div>
   
 </body>
 </html>
